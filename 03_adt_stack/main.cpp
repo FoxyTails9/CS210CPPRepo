@@ -25,6 +25,7 @@ int main() {
     return 0;
 }
 
+
 // TRY IT LIVE: ask the class "what data structure is UNDER this stack?"
 // Nobody can answer just from reading this file, and that's correct --
 // it's not their business. Then open Stack.h to reveal it's a vector.
