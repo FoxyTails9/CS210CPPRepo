@@ -17,6 +17,7 @@ int main() {
     //     an object file (main.o). The compiler checks your syntax and
     //     types here. This is where a missing semicolon gets caught.
     // TODO: print GREETING with std::cout (don't forget std::endl)
+    std::cout << GREETING<<std::endl;
 
 
     // (3) LINK stitches your object file together with the object code
@@ -26,6 +27,7 @@ int main() {
     //     you declared something, but the linker never found where it's
     //     actually defined.
     // TODO: print "Preprocess -> Compile -> Link -> Executable" with std::cout
+    std::cout << "Preprocess -> Compile -> Link -> Executable" << std::endl;
 
     return 0;   // 0 means "exited normally." We'll come back to this in
                 // the main() wrap-up task.
