@@ -22,7 +22,7 @@ naming the general rule for stacks.
 push is O(1) because topIndex++ is one integer increment and data [topIndex] = value is one array store at a computed offset. 
 No loops, no shifting, no resizing so the work is the same no matter the number of elements.
 
-pop is O(1)  as it read the data[topIndex] once, decrements is once, and returns the read value. Because all of those steps are constant-time ones
+pop is O(1)  as it read the data [topIndex] once, decrements is once, and returns the read value. Because all of those steps are constant-time ones
 and the fact that the top is always the last occupied slot the increase in elements doesn't change the run time.
 
 Peek is O(1) as it reads one element at a known index and there is no traversal.

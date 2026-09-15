@@ -11,3 +11,4 @@ throwing an exception since we haven't covered exceptions in this course yet so 
 3 (9/14/2026 10pm):Answered the reflection questions, making sure each answer was specific to my own variable names (topIndex, data) and 
 function behavior rather than a generic stack description to match my code. Looked over the code and make some minor changes here and 
 there to double-check that it's running fine.
+
