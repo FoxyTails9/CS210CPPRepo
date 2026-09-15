@@ -7,10 +7,8 @@
 // the same way, nothing calling this class would ever notice.
 
 #include "Stack.h"
-
 #include <iostream>
 #include <ostream>
-
 
 Stack::Stack() {
     topIndex = -1;
@@ -24,7 +22,6 @@ void Stack::push(int value) {
 
     topIndex++;
     data[topIndex] = value;
-
 }
 
 int Stack::pop() {
