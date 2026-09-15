@@ -27,3 +27,4 @@ private:
     int data[100];
     int topIndex;
 };
+
