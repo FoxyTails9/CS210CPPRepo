@@ -9,11 +9,12 @@
 #include "shape_utils.h"
 
 int main() {
-    double area1 = circleArea(4.0);
-    double area2 = rectangleArea(3.0, 5.0);
 
-    std::cout << "Circle area: " << area1 << std::endl;
-    std::cout << "Rectangle area: " << area2 << std::endl;
+    double area1 =circle_area(4.0);
+    double area2 =rectangle_area(4.0, 4.0);
+
+    std::cout<<"area 1 Circle Area: "<<area1<<std::endl;
+    std::cout<<"area 1 Rectangle Area: "<<area1<<std::endl;
 
     return 0;
 }

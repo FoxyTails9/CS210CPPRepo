@@ -24,5 +24,7 @@
 
 // These are DECLARATIONS. Just the signature: name, parameter types,
 // return type. No body, ends in a semicolon.
-double circleArea(double radius);
-double rectangleArea(double width, double height);
+#pragma once
+
+double circle_area(double r);
+double rectangle_area(double h, double w);

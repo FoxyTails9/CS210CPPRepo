@@ -11,13 +11,13 @@
 
 #include "shape_utils.h"   // pull in the promises we're about to keep
 
-double circleArea(double radius) {
-    // TODO: return the area of a circle with this radius (pi * radius * radius)
+double circle_area(double r) {
+    return r*r;
+}
+double rectangle_area(double h, double w) {
+    return h*w;
 }
 
-double rectangleArea(double width, double height) {
-    // TODO: return width times height
-}
 
 // Notice: this file has ZERO knowledge of who calls these functions.
 // That's the whole point of the split. main.cpp only needs the header
